@@ -12,12 +12,12 @@
         "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/activity_worldscore.xml",
         "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/layout/activity_worldscore.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/com_facebook_smart_device_dialog_fragment.xml",
@@ -36,12 +36,12 @@
         "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/layout/demo.xml"
     },
     {
-        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/activity_hasettings_activity_new.xml",
-        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/layout/activity_hasettings_activity_new.xml"
-    },
-    {
         "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/activity_hasettings_activity_new.xml",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/layout/activity_hasettings_activity_new.xml"
     },
     {
         "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
