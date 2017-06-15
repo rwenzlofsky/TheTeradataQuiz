@@ -1,0 +1,113 @@
+<resources>
+
+    <dimen name="button_common_text_size">20sp</dimen>
+    <dimen name="left_margin">10dp</dimen>
+    <dimen name="right_margin">10dp</dimen>
+    <dimen name="top_margin">10dp</dimen>
+    <dimen name="common_margin">10dp</dimen>
+
+    <dimen name="left_margin_extra">20dp</dimen>
+    <dimen name="right_margin_extra">20dp</dimen>
+    <dimen name="common_margin_extra">20dp</dimen>
+    <dimen name="top_margin_extra">20dp</dimen>
+
+    <!--Nexus Tabs-->
+
+    <dimen name="title_text_size">28dp</dimen>
+    <dimen name="title_bar_size">40dp</dimen>
+    <dimen name="title_bar_button_size">25dp</dimen>
+
+    <!--Main screen-->
+
+    <dimen name="play_quiz_button_text_size">26dp</dimen>
+    <dimen name="play_button_height">60dp</dimen>
+    <dimen name="play_button_width">280dp</dimen>
+    <dimen name="play_button_icon_size">40dp</dimen>
+    <dimen name="signed_in_message_text_size">12sp</dimen>
+
+    <!--Game screen-->
+
+    <dimen name="skip_button_text_size">18dp</dimen>
+
+    <dimen name="top_image_height">180dp</dimen>
+    <dimen name="progress_view_size">80dp</dimen>
+    <dimen name="progress_value_text">30sp</dimen>
+    <dimen name="progress_stroke_value">4dp</dimen>
+
+    <dimen name="info_text_size">18sp</dimen>
+    <dimen name="category_name_text_size">20sp</dimen>
+    <dimen name="description_text_size">16sp</dimen>
+    <dimen name="question_text_size">18sp</dimen>
+    <dimen name="question_text_view_height">100dp</dimen>
+
+    <dimen name="option_text_size">16sp</dimen>
+    <dimen name="option_bg_image_width">280dp</dimen>
+    <dimen name="option_bg_image_height">45dp</dimen>
+    <dimen name="option_padding_left">10dp</dimen>
+    <dimen name="option_padding_right">50dp</dimen>
+
+    <dimen name="question_image_size">50dp</dimen>
+    <dimen name="question_image_top_margin">84dp</dimen>
+
+    <dimen name="explanation_overlay_heght">450dp</dimen>
+    <dimen name="explanation_text_size">18sp</dimen>
+    <dimen name="correct_wrong_status_text_size">30sp</dimen>
+
+
+    <!--Points layout-->
+    <dimen name="points_text_size">26sp</dimen>
+    <dimen name="points_below_text_size">14sp</dimen>
+    <dimen name="points_layout_margin_top">50dp</dimen>
+
+    <dimen name="question_textview_margin_top">80dp</dimen>
+
+    <!--Categories screens (Main,Sub)-->
+    <dimen name="category_row_height">90dp</dimen>
+    <dimen name="category_title_text_size">18sp</dimen>
+    <dimen name="sub_title_text_size">13sp</dimen>
+    <dimen name="category_icon_size">45dp</dimen>
+    <dimen name="category_layout_margin">10dp</dimen>
+    <dimen name="category_text_layout_width">205dp</dimen>
+
+    <dimen name="highscore_layout_width">60dp</dimen>
+    <dimen name="highscore_value_text_size">22sp</dimen>
+    <dimen name="progress_value_text_size">22sp</dimen>
+    <dimen name="highscore_text_size">12sp</dimen>
+    <dimen name="progress_text_size">12sp</dimen>
+    <dimen name="progress_bar_height">4dp</dimen>
+
+    <dimen name="buy_button_text_size">20sp</dimen>
+    <dimen name="price_button_text_size">18sp</dimen>
+
+    <!--explanation bar-->
+    <dimen name="true_false_text_size">34sp</dimen>
+    <dimen name="next_button_text_size">30sp</dimen>
+    <dimen name="submit_button_text_size">32sp</dimen>
+
+    <!--Highscores screen-->
+    <dimen name="highscore_title_text_size">22sp</dimen>
+    <dimen name="high_score_category_name_row_height">80dp</dimen>
+    <dimen name="high_score_category_name_text_size">20sp</dimen>
+    <dimen name="points_result_text_size">18sp</dimen>
+
+    <!--About screen-->
+    <dimen name="about_text_size">18sp</dimen>
+
+    <!--Multiplayer 1 to 1 main screen-->
+    <dimen name="welcome_text_size">30sp</dimen>
+
+    <!--Multiplayer result screen-->
+    <dimen name="you_win_loose_text_size">30sp</dimen>
+    <dimen name="cup_image_height">150dp</dimen>
+    <dimen name="points_description_text_size">16sp</dimen>
+    <dimen name="new_match_button_text_size">18sp</dimen>
+
+    <!--Settings screen-->
+    <dimen name="remove_ads_button_width">140dp</dimen>
+    <dimen name="remove_ads_button_height">40dp</dimen>
+    <dimen name="restore_button_width">140dp</dimen>
+    <dimen name="restore_button_height">40dp</dimen>
+    <dimen name="setting_option_text_size">18sp</dimen>
+
+
+</resources>

@@ -1,0 +1,27 @@
+{
+   "Achievements":[
+         {
+
+           //configure number of wins to unlock this achievement. Achievement names for all the achievements are configured in developer console
+           //Important: add all the achivements in ascending order
+            "Wins":10,
+            "Achievement_ID":"CgkIgcTwr_oHEAIQAg"   //Achivement id created for your app in developer console
+         },
+         {
+            "Wins":20,
+            "Achievement_ID":"CgkIgcTwr_oHEAIQBQ"
+         },
+         {
+            "Wins":50,
+            "Achievement_ID":"CgkIgcTwr_oHEAIQBg"
+         },
+         {
+            "Wins":100,
+            "Achievement_ID":"CgkIgcTwr_oHEAIQBw"
+         },
+        {
+            "Wins":500,
+            "Achievement_ID":"CgkIgcTwr_oHEAIQCA"
+        }
+   ]
+}

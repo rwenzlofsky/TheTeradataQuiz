@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

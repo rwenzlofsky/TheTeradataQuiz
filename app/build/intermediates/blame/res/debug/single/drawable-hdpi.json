@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/popupbg.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/popupbg.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/plusbtn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/plusbtn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_left.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_left.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_left_press.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_left_press.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_grey_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_grey_focus.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/home.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/home.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/bottom.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/bottom.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_left_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_left_focus.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/tw.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/tw.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/gamebg.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/gamebg.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/category_bg.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/category_bg.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/sports_btns_icon.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/sports_btns_icon.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/splash.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_right_press.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_right_press.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_left_press.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_left_press.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_grey.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_grey.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/button_two.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/button_two.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_middle_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_middle_focus.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_middle_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_middle_focus.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/game_bg_top_copy2.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/game_bg_top_copy2.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_grey_press.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_grey_press.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/quiz_bg.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/quiz_bg.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/lose.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/lose.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_middle_press.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_middle_press.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/settings_btn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/settings_btn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/infobtn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/infobtn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/optionbg_green.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/optionbg_green.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/playbtn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/playbtn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_right.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_right.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_middle.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_middle.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_right_press.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_right_press.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/entertainment.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/entertainment.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_right_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_right_focus.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/cup.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/cup.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/settings.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/settings.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/optionbg_white.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/optionbg_white.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/button_four.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/button_four.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_right.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_right.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_white.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_white.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/fb.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/fb.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_white_middle.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_white_middle.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/opponent.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/opponent.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/button_one.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/button_one.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/game_bg_top.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/game_bg_top.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_left.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_left.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/category_bg_bottom.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/category_bg_bottom.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/famous_ppl.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/famous_ppl.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/game_bg_bottom.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/game_bg_bottom.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/button_three.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/button_three.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/quizdwhpro.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/quizdwhpro.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_middle_press.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_middle_press.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_right_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_right_focus.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_radio_grey_left_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_radio_grey_left_focus.9.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/optionbg_red.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/optionbg_red.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/optionbg_grey.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/optionbg_grey.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-hdpi/segment_white_focus.9.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-hdpi/segment_white_focus.9.png"
+    }
+]

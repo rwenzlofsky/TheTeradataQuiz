@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="header_textsize">25dp</dimen>
+    <dimen name="common_textsize">25dp</dimen>
+    <dimen name="two_two">22dp</dimen>
+    <dimen name="one_eight">18dp</dimen>
+    <dimen name="one_five">15dp</dimen>
+    <dimen name="seven_p_five">7.5dp</dimen>
+    <dimen name="three_zero">28dp</dimen>
+    <dimen name="header_imageMargin">15dp</dimen>
+    <dimen name="header_size">80dp</dimen>
+    <dimen name="categories_header_size">50dp</dimen>
+    <dimen name="option_buttonmargin">8dp</dimen>
+    <dimen name="question_margin_bottom">35dp</dimen>
+    <dimen name="question_numbersize">35dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="margin_onezero">10dp</dimen>
+    <dimen name="margin_twozero">20dp</dimen>
+    <dimen name="margin_threezero">30dp</dimen>
+    <dimen name="margin_fourzero">40dp</dimen>
+    <dimen name="remove_restore_button_width">200dp</dimen>
+    <dimen name="one_hundred">100dp</dimen>
+    <dimen name="three_hundred">300dp</dimen>
+    <dimen name="one_two">12dp</dimen>
+    <dimen name="one_three">13dp</dimen>
+    <dimen name="one">1dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="seventy">70dp</dimen>
+    <dimen name="eighty_five">85dp</dimen>
+    <dimen name="ninty">90dp</dimen>
+    <dimen name="three">3dp</dimen>
+    <dimen name="one_fifty">150dp</dimen>
+    <dimen name="two_hundred">200dp</dimen>
+    <dimen name="one_six">16dp</dimen>
+    <dimen name="four_zero">40dp</dimen>
+    <dimen name="six_zero">60dp</dimen>
+    <dimen name="one_seven_five">175dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="eighty">80dp</dimen>
+
+    <dimen name="category_row_height">180dp</dimen>
+    <dimen name="cone_five">15dp</dimen>
+    <dimen name="ctwo_zero">20dp</dimen>
+    <dimen name="coption_buttonmargin">8dp</dimen>
+    <dimen name="cmargin_five">5dp</dimen>
+    <dimen name="ctwo_five">25dp</dimen>
+    <dimen name="cseven">7dp</dimen>
+    <dimen name="ceight">8dp</dimen>
+    <dimen name="cnine">9dp</dimen>
+    <dimen name="cone_zero">10dp</dimen>
+    <dimen name="cone_two">12dp</dimen>
+    <dimen name="cone_six">16dp</dimen>
+
+    <dimen name="three_five">35dp</dimen>
+
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+    <dimen name="font_size_large">32sp</dimen>
+
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="cfour_zero">40dp</dimen>
+    <dimen name="rematch_button_width">100dp</dimen>
+    <dimen name="rematch_button_height">40dp</dimen>
+    <dimen name="option_height">120dp</dimen>
+    <dimen name="option_text_size">18dp</dimen>
+    <dimen name="question_text_size">20dp</dimen>
+    <dimen name="two_hundred_ten">210dp</dimen>
+    <dimen name="cup_size_width_height">180dp</dimen>
+    <dimen name="nine_zero">90dp</dimen>
+    <dimen name="two_eight">28dp</dimen>
+    <dimen name="two_three_zero">230dp</dimen>
+    <dimen name="one_two_zero">120dp</dimen>
+    <dimen name="three_four_zero">340dp</dimen>
+    <dimen name="two_two_zero">220dp</dimen>
+    <dimen name="one_four_zero">140dp</dimen>
+    <dimen name="two_hundred_n_ten">210dp</dimen>
+    <dimen name="five_zero">50dp</dimen>
+    <dimen name="one_eight_zero">180dp</dimen>
+    <dimen name="one_zero_zero">100dp</dimen>
+    <dimen name="common_textsize_twozero">20dp</dimen>
+    <dimen name="four_two">42dp</dimen>
+    <dimen name="five_five">55dp</dimen>
+
+</resources>

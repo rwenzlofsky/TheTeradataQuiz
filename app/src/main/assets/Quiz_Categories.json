@@ -1,0 +1,46 @@
+{
+  "Categories":[
+    {
+      "category_color":"#008b95",
+      "timer_required":true,
+      "category_id":"1",
+      "category_name":"10 Questions",
+      "leaderboard_id":"CgkIgcTwr_oHEAIQAQ",
+      "category_description":"Basic Teradata Quiz",
+      "category_image_path":"one.jpg",
+      "category_questions_max_limit":"10"
+    },
+    {
+      "category_color":"#008b95",
+      "timer_required":true,
+      "category_id":"2",
+      "category_name":"20 Questions",
+      "leaderboard_id":"CgkIgcTwr_oHEAIQAw",
+      "category_description":"Medium Level Teradata Quiz",
+      "category_image_path":"one.png",
+      "category_questions_max_limit":"20"
+    },
+    {
+      "category_color":"#008b95",
+      "timer_required":true,
+      "category_id":"3",
+      "category_name":"50 Questions",
+      "productIdentifier":"people_prod_id5",
+      "category_description":"Deep dive into Teradata",
+      "leaderboard_id":"CgkIgcTwr_oHEAIQBA",
+      "category_image_path":"one.png",
+      "category_questions_max_limit":"50"
+    },
+    {
+      "category_color":"#008b95",
+      "timer_required":true,
+      "category_id":"4",
+      "category_name":"100 Questions",
+      "productIdentifier":"people_prod_id5",
+      "category_description":"Endless fun!",
+      "leaderboard_id":"CgkIgcTwr_oHEAIQCQ",
+      "category_image_path":"one.png",
+      "category_questions_max_limit":"100"
+    }
+  ]
+}

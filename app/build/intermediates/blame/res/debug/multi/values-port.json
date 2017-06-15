@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

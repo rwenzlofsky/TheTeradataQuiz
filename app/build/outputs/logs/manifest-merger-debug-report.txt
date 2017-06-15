@@ -1,0 +1,582 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:2:1-151:12
+	package
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:13:5-15:41
+MERGED from [com.android.support:multidex:1.0.1] /home/rwenzlofsky/.android/build-cache/c2c6f1ba26ef2fe87b7adfc95e584ebf363785bd/output/AndroidManifest.xml:18:5-42
+MERGED from [Quiz App Starter Kit Android v4.1:BaseGameUtils:unspecified] /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:22:5-24:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/rwenzlofsky/.android/build-cache/0bcf1bc18dfbc42577abc35fbbdafca8ceb1afc0/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/rwenzlofsky/.android/build-cache/05b5bb92ac1fd56e6fc6e7f5dd7062ffb7fd210c/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/rwenzlofsky/.android/build-cache/caa27c0466fc3baf7ae5f0c77407fb5997b4edac/output/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/rwenzlofsky/.android/build-cache/8f9ee41a0b605ed622b7bacd65f246a5d72fe0a8/output/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/rwenzlofsky/.android/build-cache/a181fb6ec788994d93d48a5f946248c9e0d8dfe2/output/AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:support-v13:25.1.0] /home/rwenzlofsky/.android/build-cache/e854d4ee8881a292176d739bbf77963347150301/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.6] /home/rwenzlofsky/.android/build-cache/3774f10eb39a593e85cb68e9b9cba2288c55d4f8/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.6] /home/rwenzlofsky/.android/build-cache/3431354cea0964ba32cbbde7005438367200f679/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.6] /home/rwenzlofsky/.android/build-cache/902807641f74336236e01f567ec6a9207a30d522/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.6] /home/rwenzlofsky/.android/build-cache/40a02d34e48fd8dbc2bdbe78328ddfebb453672d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rwenzlofsky/.android/build-cache/1d7a4576350c62bb289e0df4986b23207040c087/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rwenzlofsky/.android/build-cache/5cd8623857f9d2a24fcaa4c9ad8ef751dfeb5635/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/8dd9a689a821c7de5ddb11e55aa4efe2368b21f6/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] /home/rwenzlofsky/.android/build-cache/6ae83f81cec1b680b0e10fed9b4dbe9e07e5ceaf/output/AndroidManifest.xml:20:5-44
+MERGED from [me.grantland:autofittextview:0.2.1] /home/rwenzlofsky/.android/build-cache/2b12043a2f88600b6692bc6b7beeadc42b208784/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-ads:10.2.6] /home/rwenzlofsky/.android/build-cache/97cf9fab668e0ca8a4edf364a3345302baffff3c/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.6] /home/rwenzlofsky/.android/build-cache/9015a39211fcbc9b5c232c7938f567607db8b30c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.6] /home/rwenzlofsky/.android/build-cache/89a145802520029814e165403777cad6a9740ddf/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.6] /home/rwenzlofsky/.android/build-cache/dfca5ed8ff4e3d016b5b25c1293754ed0d28d387/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.6] /home/rwenzlofsky/.android/build-cache/f87564c46116342d58990cc9d18679ae48055fcf/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.6] /home/rwenzlofsky/.android/build-cache/b9f631887a4289848559aa2736bb9c2747fa8c2d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-invites:10.2.6] /home/rwenzlofsky/.android/build-cache/58955e75cd3b2ea9de859445d302695270b5a600/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.6] /home/rwenzlofsky/.android/build-cache/26a362a59a8953ec137fd747108d8e98fa779c3d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/rwenzlofsky/.android/build-cache/f94de2f90bb2f24db946c6980542bd1d01df9dc8/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.6] /home/rwenzlofsky/.android/build-cache/9a4ba7929f84204471b6f4ae8ca47b5aac2bd492/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.6] /home/rwenzlofsky/.android/build-cache/17b606c71b89841e7041c4e8068c48e60a00f9c7/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] /home/rwenzlofsky/.android/build-cache/a477bd2d6bd144316767d1ae15aae5106434aa7e/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] /home/rwenzlofsky/.android/build-cache/8bd2cb5f39fafc03204037b69b24f941f6d4f71b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:25.3.1] /home/rwenzlofsky/.android/build-cache/eaa0d181ba018b8c248260452f92ee300be9dbab/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rwenzlofsky/.android/build-cache/c1fed88123878ba2a838d0d763ec53f61a86b884/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rwenzlofsky/.android/build-cache/6aff982827cbd2cf55ea57b46ba263e16d527128/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rwenzlofsky/.android/build-cache/d82f3525b3782557dc8450bd4645f2e68dd055e7/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rwenzlofsky/.android/build-cache/2e632dedc1020ebdca8e9e68264a0e476ff8ed2a/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/rwenzlofsky/.android/build-cache/fc1c69ce4d27adc8a136c0cbb419dcfe2d1337e6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/rwenzlofsky/.android/build-cache/5b3cb398f03352e8b89384d8a960705bc58e54ff/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:25.1.0] /home/rwenzlofsky/.android/build-cache/e854d4ee8881a292176d739bbf77963347150301/output/AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:15:9-38
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:14:9-35
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:17:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/rwenzlofsky/.android/build-cache/0bcf1bc18dfbc42577abc35fbbdafca8ceb1afc0/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/rwenzlofsky/.android/build-cache/05b5bb92ac1fd56e6fc6e7f5dd7062ffb7fd210c/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/rwenzlofsky/.android/build-cache/caa27c0466fc3baf7ae5f0c77407fb5997b4edac/output/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/rwenzlofsky/.android/build-cache/8f9ee41a0b605ed622b7bacd65f246a5d72fe0a8/output/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/rwenzlofsky/.android/build-cache/a181fb6ec788994d93d48a5f946248c9e0d8dfe2/output/AndroidManifest.xml:29:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.6] /home/rwenzlofsky/.android/build-cache/b9f631887a4289848559aa2736bb9c2747fa8c2d/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/rwenzlofsky/.android/build-cache/f94de2f90bb2f24db946c6980542bd1d01df9dc8/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:17:22-64
+uses-permission#com.android.vending.BILLING
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:19:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:21:22-77
+application
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:23:5-149:19
+MERGED from [Quiz App Starter Kit Android v4.1:BaseGameUtils:unspecified] /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:26:5-30:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/rwenzlofsky/.android/build-cache/0bcf1bc18dfbc42577abc35fbbdafca8ceb1afc0/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/rwenzlofsky/.android/build-cache/05b5bb92ac1fd56e6fc6e7f5dd7062ffb7fd210c/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/rwenzlofsky/.android/build-cache/caa27c0466fc3baf7ae5f0c77407fb5997b4edac/output/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/rwenzlofsky/.android/build-cache/8f9ee41a0b605ed622b7bacd65f246a5d72fe0a8/output/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/rwenzlofsky/.android/build-cache/a181fb6ec788994d93d48a5f946248c9e0d8dfe2/output/AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:support-v13:25.1.0] /home/rwenzlofsky/.android/build-cache/e854d4ee8881a292176d739bbf77963347150301/output/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-games:10.2.6] /home/rwenzlofsky/.android/build-cache/3431354cea0964ba32cbbde7005438367200f679/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.6] /home/rwenzlofsky/.android/build-cache/902807641f74336236e01f567ec6a9207a30d522/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.6] /home/rwenzlofsky/.android/build-cache/40a02d34e48fd8dbc2bdbe78328ddfebb453672d/output/AndroidManifest.xml:18:5-19
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rwenzlofsky/.android/build-cache/1d7a4576350c62bb289e0df4986b23207040c087/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rwenzlofsky/.android/build-cache/5cd8623857f9d2a24fcaa4c9ad8ef751dfeb5635/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/8dd9a689a821c7de5ddb11e55aa4efe2368b21f6/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /home/rwenzlofsky/.android/build-cache/6ae83f81cec1b680b0e10fed9b4dbe9e07e5ceaf/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-ads:10.2.6] /home/rwenzlofsky/.android/build-cache/97cf9fab668e0ca8a4edf364a3345302baffff3c/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.6] /home/rwenzlofsky/.android/build-cache/89a145802520029814e165403777cad6a9740ddf/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.6] /home/rwenzlofsky/.android/build-cache/dfca5ed8ff4e3d016b5b25c1293754ed0d28d387/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-core:10.2.6] /home/rwenzlofsky/.android/build-cache/f87564c46116342d58990cc9d18679ae48055fcf/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash:10.2.6] /home/rwenzlofsky/.android/build-cache/b9f631887a4289848559aa2736bb9c2747fa8c2d/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-invites:10.2.6] /home/rwenzlofsky/.android/build-cache/58955e75cd3b2ea9de859445d302695270b5a600/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-base:10.2.6] /home/rwenzlofsky/.android/build-cache/26a362a59a8953ec137fd747108d8e98fa779c3d/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/rwenzlofsky/.android/build-cache/f94de2f90bb2f24db946c6980542bd1d01df9dc8/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.6] /home/rwenzlofsky/.android/build-cache/9a4ba7929f84204471b6f4ae8ca47b5aac2bd492/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.6] /home/rwenzlofsky/.android/build-cache/17b606c71b89841e7041c4e8068c48e60a00f9c7/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] /home/rwenzlofsky/.android/build-cache/a477bd2d6bd144316767d1ae15aae5106434aa7e/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] /home/rwenzlofsky/.android/build-cache/8bd2cb5f39fafc03204037b69b24f941f6d4f71b/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:26:5-40:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/rwenzlofsky/.android/build-cache/eaa0d181ba018b8c248260452f92ee300be9dbab/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rwenzlofsky/.android/build-cache/c1fed88123878ba2a838d0d763ec53f61a86b884/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rwenzlofsky/.android/build-cache/6aff982827cbd2cf55ea57b46ba263e16d527128/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rwenzlofsky/.android/build-cache/d82f3525b3782557dc8450bd4645f2e68dd055e7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rwenzlofsky/.android/build-cache/2e632dedc1020ebdca8e9e68264a0e476ff8ed2a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/rwenzlofsky/.android/build-cache/fc1c69ce4d27adc8a136c0cbb419dcfe2d1337e6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/rwenzlofsky/.android/build-cache/5b3cb398f03352e8b89384d8a960705bc58e54ff/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:27:9-41
+	android:allowBackup
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:25:9-35
+	android:icon
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:26:9-45
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:24:9-68
+meta-data#com.google.android.gms.version
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:28:9-30:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] /home/rwenzlofsky/.android/build-cache/8bd2cb5f39fafc03204037b69b24f941f6d4f71b/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:30:13-66
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:29:13-58
+activity#com.dwhpro.HASplashScreen
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:32:9-42:20
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:34:13-45
+	android:noHistory
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:33:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:40:27-74
+activity#com.dwhpro.Activities.HAMainActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:43:9-47:54
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:46:13-49
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:45:13-45
+	android:theme
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:47:13-51
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:44:13-64
+activity#com.dwhpro.Activities.HAAboutActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:48:9-51:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:49:13-65
+activity#com.dwhpro.Activities.HAInterstitialAdActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:52:9-56:50
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:54:13-45
+	android:theme
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:56:13-47
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:53:13-74
+activity#com.dwhpro.TwitterActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:57:9-71:20
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:58:13-54
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:61:13-70:29
+action#android.intent.action.VIEW
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:62:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:64:17-76
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:64:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:65:17-78
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:65:27-75
+data
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:67:17-69:49
+	android:host
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:68:21-47
+	android:scheme
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:69:21-46
+activity#com.dwhpro.WebViewActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:72:9-75:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:74:13-45
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:73:13-54
+activity#com.dwhpro.HAWorldScoreActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:76:9-79:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:78:13-45
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:77:13-59
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:80:9-83:52
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:25:9-232
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:83:13-49
+	android:configChanges
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:82:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:81:13-65
+activity#com.facebook.FacebookActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:84:9-87:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:87:13-45
+	android:configChanges
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:86:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:85:13-57
+provider#com.facebook.FacebookContentProvider
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:89:9-92:39
+	android:authorities
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:91:13-91
+	android:exported
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:90:13-64
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:94:9-96:46
+	android:value
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:96:13-43
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:95:13-63
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:97:9-99:49
+	android:value
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:99:13-46
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:98:13-58
+meta-data#com.facebook.sdk.ApplicationName
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:100:9-102:57
+	android:value
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:102:13-54
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:101:13-60
+service#com.dwhpro.service.BackGroundMusicService
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:104:9-106:38
+	android:enabled
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:106:13-35
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:105:13-69
+activity#com.dwhpro.Activities.HAGameActivity_new
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:108:9-110:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:109:13-68
+activity#com.dwhpro.Activities.HACategoriesActivity_new
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:111:9-113:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:113:13-49
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:112:13-74
+activity#com.dwhpro.Activities.HAHighScoresActivity_new
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:115:13-74
+activity#com.dwhpro.Activities.HASettingsActivity_new
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:117:9-119:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:119:13-49
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:118:13-72
+activity#com.dwhpro.Activities.HAMultiplayerMainActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:120:9-122:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:121:13-75
+activity#com.dwhpro.Activities.HAMultiplayerResultActivity
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:123:9-125:52
+	android:screenOrientation
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:125:13-49
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:124:13-77
+service#com.dwhpro.service.MyFirebaseMessagingService
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:127:9-131:19
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:127:18-78
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:128:13-130:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:129:17-78
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:129:25-75
+service#com.dwhpro.service.MyFirebaseInstanceIDService
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:132:9-136:19
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:132:18-79
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:133:13-135:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:134:17-80
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:134:25-77
+service#com.dwhpro.service.MyJobService
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:137:9-143:19
+	android:exported
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:138:13-59
+intent-filter#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:140:13-142:29
+action#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:141:17-84
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:141:25-81
+meta-data#io.fabric.ApiKey
+ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:145:9-147:72
+	android:value
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:147:13-69
+	android:name
+		ADDED from /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/AndroidManifest.xml:146:13-44
+meta-data#unityplayer.ForwardNativeEventsToDalvik
+ADDED from [Quiz App Starter Kit Android v4.1:BaseGameUtils:unspecified] /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:27:9-29:36
+	android:value
+		ADDED from [Quiz App Starter Kit Android v4.1:BaseGameUtils:unspecified] /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:29:13-33
+	android:name
+		ADDED from [Quiz App Starter Kit Android v4.1:BaseGameUtils:unspecified] /home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:28:13-67
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] /home/rwenzlofsky/.android/build-cache/0968ad8fc4b195864c4b4a70a8caa2fd3588c5ae/output/AndroidManifest.xml:24:18-63
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/rwenzlofsky/.android/build-cache/330a28d7b98e6c96b3fd5959739126a2996fb0ae/output/AndroidManifest.xml:45:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rwenzlofsky/.android/build-cache/1d7a4576350c62bb289e0df4986b23207040c087/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rwenzlofsky/.android/build-cache/5cd8623857f9d2a24fcaa4c9ad8ef751dfeb5635/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/8dd9a689a821c7de5ddb11e55aa4efe2368b21f6/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] /home/rwenzlofsky/.android/build-cache/6ae83f81cec1b680b0e10fed9b4dbe9e07e5ceaf/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/rwenzlofsky/.android/build-cache/eaa0d181ba018b8c248260452f92ee300be9dbab/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rwenzlofsky/.android/build-cache/c1fed88123878ba2a838d0d763ec53f61a86b884/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rwenzlofsky/.android/build-cache/6aff982827cbd2cf55ea57b46ba263e16d527128/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rwenzlofsky/.android/build-cache/d82f3525b3782557dc8450bd4645f2e68dd055e7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rwenzlofsky/.android/build-cache/2e632dedc1020ebdca8e9e68264a0e476ff8ed2a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/rwenzlofsky/.android/build-cache/fc1c69ce4d27adc8a136c0cbb419dcfe2d1337e6/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/rwenzlofsky/.android/build-cache/f94de2f90bb2f24db946c6980542bd1d01df9dc8/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] /home/rwenzlofsky/.android/build-cache/e859c927d28ca53f09abe5c4f2f34117c16766e6/output/AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] /home/rwenzlofsky/.android/build-cache/b7011c3cf2a01f8411f30ebb18e4788475f27be6/output/AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/rwenzlofsky/.android/build-cache/26a362a59a8953ec137fd747108d8e98fa779c3d/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/rwenzlofsky/.android/build-cache/26a362a59a8953ec137fd747108d8e98fa779c3d/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/rwenzlofsky/.android/build-cache/26a362a59a8953ec137fd747108d8e98fa779c3d/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/rwenzlofsky/.android/build-cache/26a362a59a8953ec137fd747108d8e98fa779c3d/output/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/rwenzlofsky/.android/build-cache/f94de2f90bb2f24db946c6980542bd1d01df9dc8/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/rwenzlofsky/.android/build-cache/f94de2f90bb2f24db946c6980542bd1d01df9dc8/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/rwenzlofsky/.android/build-cache/f94de2f90bb2f24db946c6980542bd1d01df9dc8/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/rwenzlofsky/.android/build-cache/1f1d8f04ff81c249e45b1901e92777aac1d0005c/output/AndroidManifest.xml:32:16-87
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.6] /home/rwenzlofsky/.android/build-cache/9a4ba7929f84204471b6f4ae8ca47b5aac2bd492/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.6] /home/rwenzlofsky/.android/build-cache/9a4ba7929f84204471b6f4ae8ca47b5aac2bd492/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.6] /home/rwenzlofsky/.android/build-cache/9a4ba7929f84204471b6f4ae8ca47b5aac2bd492/output/AndroidManifest.xml:23:18-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/rwenzlofsky/.android/build-cache/7abef66ebc48b6c8855d439a93466fab29be3ee7/output/AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.6] /home/rwenzlofsky/.android/build-cache/17b606c71b89841e7041c4e8068c48e60a00f9c7/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/rwenzlofsky/.android/build-cache/17b606c71b89841e7041c4e8068c48e60a00f9c7/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/rwenzlofsky/.android/build-cache/17b606c71b89841e7041c4e8068c48e60a00f9c7/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/rwenzlofsky/.android/build-cache/17b606c71b89841e7041c4e8068c48e60a00f9c7/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/rwenzlofsky/.android/build-cache/17b606c71b89841e7041c4e8068c48e60a00f9c7/output/AndroidManifest.xml:6:79-143
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:33:13-73
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.2] /home/rwenzlofsky/.android/build-cache/fda7e3e19d35984b407c0bdc4bbb7237addd7865/output/AndroidManifest.xml:37:25-84

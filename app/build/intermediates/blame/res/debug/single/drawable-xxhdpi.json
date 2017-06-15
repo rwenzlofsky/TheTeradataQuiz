@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/optionbg_red.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/optionbg_red.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button1_icon.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button1_icon.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/optionbg_grey.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/optionbg_grey.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/home.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/home.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/settings_btn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/settings_btn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/optionbg_green.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/optionbg_green.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/leaderboards_ic.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/leaderboards_ic.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button_two.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button_two.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/infobtn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/infobtn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button_four.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button_four.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button1_iconxxx.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button1_iconxxx.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button3_icon.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button3_icon.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/popupbg.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/popupbg.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/quizdwhpro.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/quizdwhpro.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/optionbg_white.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/optionbg_white.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button_five.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button_five.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/plusbtn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/plusbtn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button5_icon.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button5_icon.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button_three.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button_three.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/playbtn.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/playbtn.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/achievements_ic.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/achievements_ic.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button2_icon.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button2_icon.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/splash.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button4_icon.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button4_icon.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/button_one.png",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/drawable-xxhdpi/button_one.png"
+    }
+]

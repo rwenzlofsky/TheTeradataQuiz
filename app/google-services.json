@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "273367704065",
+    "firebase_url": "https://teradata-quiz-25012582.firebaseio.com",
+    "project_id": "teradata-quiz-25012582",
+    "storage_bucket": "teradata-quiz-25012582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273367704065:android:16a9b7d7c25e932b",
+        "android_client_info": {
+          "package_name": "com.dwhpro.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273367704065-8aaubkdnqijam8qqme7csv7a07eqpd32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dwhpro.quiz",
+            "certificate_hash": "4d7e9af3a63fdd653e9a16b07c78db6262c9c6af"
+          }
+        },
+        {
+          "client_id": "273367704065-97s6tous1kkjrn6575mifcha5djg0rqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIEeyZ1YrhryZHO0J2YigghUQJwZ7NegQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273367704065-97s6tous1kkjrn6575mifcha5djg0rqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

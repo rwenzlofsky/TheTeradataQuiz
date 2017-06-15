@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cell_layout"
+    android:background="#FF5050"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/category_row_height"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/category_row_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+            <ImageView
+                android:id="@+id/category_image"
+                android:layout_width="@dimen/category_icon_size"
+                android:layout_height="@dimen/category_icon_size"
+                android:layout_margin="@dimen/common_margin"
+                android:src="@drawable/entertainment"
+                android:layout_centerVertical="true"
+                />
+            <LinearLayout
+                android:layout_toRightOf="@+id/category_image"
+                android:layout_toLeftOf="@+id/right_layout"
+                android:id="@+id/category_and_description_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginBottom="@dimen/progress_bar_height"
+                >
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/category_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|top"
+                    android:gravity="start|top"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:text="Cars fun quiz"
+                    android:textColor="@color/app_text_color"
+                    android:textSize="@dimen/category_title_text_size"
+                    app:minTextSize="20sp" />
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/category_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:maxLines="4"
+                    android:minLines="1"
+                    android:text="How many of you know about these famous people? of you know about these famous peopl?"
+                    android:textColor="@color/app_text_color"
+                    app:minTextSize="10sp"
+                    android:textSize="@dimen/sub_title_text_size"
+                    android:paddingBottom="@dimen/progress_bar_height"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/right_layout"
+                android:layout_alignParentEnd="true"
+                android:layout_width="@dimen/highscore_layout_width"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/common_margin"
+                android:gravity="center|top"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:background="#33000000"
+                >
+
+                <LinearLayout
+                    android:id="@+id/highscore_layout"
+                    android:layout_width="@dimen/highscore_layout_width"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="Highscore"
+                        android:textColor="@color/app_text_color"
+                        android:textSize="@dimen/highscore_text_size"
+                        />
+
+                    <TextView
+                        android:id="@+id/score_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/app_text_color"
+                        android:textSize="@dimen/highscore_value_text_size"
+                        />
+
+                    <TextView
+                        android:id="@+id/complete_percent_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:gravity="center|bottom"
+                        android:text="100%"
+                        android:textColor="@color/app_text_color"
+                        android:textSize="@dimen/highscore_value_text_size"
+                        android:layout_marginTop="@dimen/common_margin"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/buy_layout"
+                    android:layout_width="@dimen/highscore_layout_width"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:gravity="center"
+                    >
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Buy"
+                        android:textColor="@color/app_text_color"
+                        android:textSize="@dimen/buy_button_text_size"
+                        android:textStyle="bold"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        app:minTextSize="10sp"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+
+                        android:id="@+id/price_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="$0.99"
+                        android:textColor="@color/app_text_color"
+                        android:textSize="@dimen/price_button_text_size"
+                        app:minTextSize="5sp"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_bar_height"
+            android:layout_alignParentBottom="true"
+            android:max="100"
+            android:progressDrawable="@drawable/progress_bar" />
+
+    </RelativeLayout>
+</RelativeLayout>

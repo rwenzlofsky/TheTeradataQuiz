@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/raw/tap.mp3",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/raw/tap.mp3"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/raw/background_music.mp3",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/raw/background_music.mp3"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/raw/wrong.wav",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/raw/wrong.wav"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/raw/right.wav",
+        "source": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/src/main/res/raw/right.wav"
+    }
+]

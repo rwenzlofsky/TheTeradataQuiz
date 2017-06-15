@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size">
+
+        <LinearLayout
+            android:id="@+id/home_button_layout"
+            android:layout_width="@dimen/title_bar_button_size"
+            android:layout_height="@dimen/title_bar_button_size"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/title_bar_button_size"
+                android:layout_height="@dimen/title_bar_button_size"
+                android:contentDescription="@string/simple_description"
+                android:src="@drawable/home" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/header_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/about"
+            android:textColor="@color/app_text_color"
+            android:textSize="@dimen/title_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:id="@+id/web_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/top_margin"
+        >
+
+    <WebView
+        android:id="@+id/fb_page_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+    
+    <LinearLayout 
+        android:id="@+id/text_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView 
+            android:id="@+id/about_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop ="@dimen/top_margin"
+            android:paddingRight ="@dimen/right_margin"
+            android:paddingLeft ="@dimen/left_margin"
+            android:textColor="@color/app_text_color"
+            android:textSize="@dimen/about_text_size"
+            android:scrollbars="vertical"
+            />
+        </LinearLayout>
+</LinearLayout>

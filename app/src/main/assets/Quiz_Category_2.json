@@ -1,0 +1,5871 @@
+{
+  "Questions":[
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which index type keeps its rows together with the related base table rows on the same AMP?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "NUSI",
+        "USI",
+        "Primary Index",
+        "Hash Index"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which partition holds the NULL values in a row partitioned table?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "UNKNOWN",
+        "NO RANGE",
+        "0",
+        "The maximum partition"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Primary Index are columns are A and B. Identify the single-AMP access",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "WHERE A = 100 AND B = 10;",
+        "WHERE A = 100;",
+        "WHERE B = 100;",
+        "WHERE A = 100 AND C = 10;"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Primary Index is column A. Identify the Full Table Scan",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "WHERE B = 100;",
+        "WHERE A = 100;",
+        "WHERE A = 10 AND B = 100;",
+        "WHERE B = 10 AND A = 100;"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which of the following statements about PPI Tables are NOT true?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "PPI is used to enhance performance against small tables",
+        "To store rows using PPI you specify partitioning in the CREATE TABLE statement",
+        "They can reduce the number of rows processed by using partition elimination",
+        "PPI is beneficial in queries specifying range constraints"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Before selecting the Primary Index, what do you need to know so that even distribution is ensured?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "The columns that ensure uniqueness",
+        "The number of rows in the table",
+        "The data demographics of new data from load processes",
+        "The other tables that will be involved in a join"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Locks cannot be placed at which level?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Block",
+        "Table",
+        "Database",
+        "Rowhash"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which of the following statements regarding a Primary Index are true?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "There is a limit to the number of columns in a Primary Index",
+        "The Primary Index is a logical mechanism",
+        "The Primary Index requires uniqueness",
+        "The Primary Index column cannot be NULL"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What option can best describe Teradata's architecture?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Shared nothing",
+        "Shared everything",
+        "Shared memory",
+        "Shared data"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Where does Teradata use random AMP sampling?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Indexed Columns",
+        "All Columns",
+        "All Secondary Indexes",
+        "USI"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which statements about FALLBACK protection are true?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "FALLBACK is associated with AMP cluster",
+        "FALLBACK does not require additional disk space",
+        "FALLBACK is a data protection scheme that uses cliques",
+        "FALLBACK can't be specified at the table level"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which of the following statements about temporary space is true?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Temporary space is permanent space currently not used",
+        "Temporary space is spool space currently not used",
+        "Temporary space is subtracted from SysAdmin",
+        "Temporary space is assigned at the table level"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which of the following statements about NOPI tables are wrong?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "NOPI Tables are always SET tables",
+        "NOPI tables can have secondary indexes",
+        "NOPI tables can be fallback protected",
+        "NOPI tables can have triggers"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which if the following requests does not honor freespace percent?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "TPump",
+        "Fastload",
+        "Multiload into an empty table",
+        "Insert...Select into empty table"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Your system uses 1MB data blocks. For which workload would you switch to small blocks?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Tactical Workload",
+        "Strategic Workload",
+        "Full Table Scans",
+        "Any kind of workload"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Your system uses 1MB data blocks. Can there be a performance impact on PPI table join steps?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "The Sliding Window Join performance might suffer",
+        "The Sliding Window Join performance might improve",
+        "The Rowkey Based Merge Join performance might improve",
+        "No impact at all"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Were would put your most critical workload in the hierarchy?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "As high as possible in the workload hierarchy",
+        "As low as possible in the workload hierarchy",
+        "In the Timeshare tier",
+        "It doesn't matter"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Assume you have a very long running and resource intense query. Where would you definitely not put it?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "The Tactical tier",
+        "The SLG tier",
+        "In the Timeshare tier",
+        "It doesn't matter"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a criteria for selecting a primary index?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Row Size ",
+        "Access path",
+        "Distribution of Data",
+        "Volatility of Data"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a task of the AMP?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Session handling",
+        "Aggregate data",
+        "Join processing",
+        "Convert ASCII returned data to EBCDIC"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not part of the Teradata architecture?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "JDBC Driver",
+        "AMP",
+        "Parsing Engine",
+        "BYNET"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How would you collect statistics on a very small table?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Full",
+        "Dynamic AMP Sampling",
+        "Sample Statistics",
+        "Not at all"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many presence bytes do you need if you have a table with 9 nullable columns (none is compressed)?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "2",
+        "1",
+        "3",
+        "0"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many presence bytes are always available in each row?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "1",
+        "0",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many presence bits of the first presence byte can be used to store information about NULL values?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "7",
+        "8",
+        "0",
+        "2"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"We add a row of size 5 bytes (char(5)) to an empty table (with primary index)? How much will the table at least grow?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "512 Bytes",
+        "5 Bytes",
+        "1024 Bytes",
+        "0 Bytes"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is the value of the first presence bit of the first presence byte?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "1",
+        "0",
+        "255",
+        "-1"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which partition holds the values not fitting any defined partition?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "NO RANGE",
+        "UNKNOWN",
+        "0",
+        "The maximum partition"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which is the lowest level in the workload hierarchy?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "The Timeshare Tier",
+        "The Tactical Workload Tier",
+        "The SGL Tier",
+        "The Emergency Tier"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"When you first install Teradata which is the initial user?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "DBC",
+        "SYSDBA",
+        "SYSADMIN",
+        "ROOT"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is the recommened spool reserve for 100% fallback & no compression?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "20%",
+        "32%",
+        "40%",
+        "60%"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Who is the owner of user SYSTEMFE?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "DBC.SYSTEMFE",
+        "DBC",
+        "DBC.SYSADMIN",
+        "SYSDBA"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which of these users is can be used foe logon?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "DBC",
+        "ALL",
+        "DEFAULT",
+        "PUBLIC"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which DATABLOCKSIZE should be used?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Larger for strategic workload",
+        "Smaller for strategic workload",
+        "Larger for Tactical workload",
+        "Smaller for full table scans"
+      ]
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"User DBC has provileges on everything?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which partition holds the values not fitting any defined partition?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "NO RANGE",
+        "UNKNOWN",
+        "0",
+        "The maximum partition"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"SELECT TOP 3 amount FROM balances ORDER BY amount",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Returns the 3 highest amounts ordered ascending",
+        "Returns 3 random amounts ordered ascending",
+        "Returns 3 random amounts ordered descending",
+        "Will return a syntax error"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"SELECT TOP 2 WITH TIES amount FROM balances ORDER BY amount",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "The number of returned rows can be more than 2",
+        "Returns 2 rows",
+        "Returns 4 rows",
+        "Will return a syntax error"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"AMP 1 has 10000 Cylinders. How many Cylinder Indexes it has?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "10000",
+        "1",
+        "100",
+        "Cylinder Indexes are created on demand"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What can be a disadvantage of a SET table?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Slower INSERT into target table",
+        "No Fastload possible",
+        "Primary Index has to be unique",
+        "No Row Partitioning allowed"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many Row Reference Arrays exist for 4 data blocks?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "4",
+        "1",
+        "2",
+        "8"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"SELECT * FROM Balances SAMPLE 5 returns...",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Max. 5 of the table rows",
+        "Max. 50% of the table rows",
+        "5 different samples of table Balances",
+        "Returns a syntax error"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which query will match only rows with column value 'S%'?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "...WHERE col LIKE 'S@%' ESCAPE '@'",
+        "...WHERE col LIKE 'S%'",
+        "...WHERE col = 'S%'",
+        "...WHERE col = '%S%'"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which of below aliases will cause a syntax error?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "SELECT col (col_alias)",
+        "SELECT col col_alias",
+        "SELECT col AS col_alias",
+        "SELECT col col1"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"SELECT * FROM Customer SAMPLE 5,5 ...",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Will return two samples of size 5",
+        "Will return one sample of size 10",
+        "Will return all table rows (50% + 50%)",
+        "Returns a syntax error"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many Row Reference Arrays each table has?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "One per data block",
+        "1",
+        "65535",
+        "None"
+      ]
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Are tables without Primary Index (NOPI) always distributed evenly across all AMPs?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can column names be aliased?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Dropping a table deletes views that referenced the dropped table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You can use TOP and SAMPLE together",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata automatically drops all materialized temporary tables at session end",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata automatically drops all volatile tables at session end",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Fallback provides data protection at the table level",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Primary Index is A. Will 'WHERE A = 100 AND B = 10' cause a Full Table Scan?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Primary Index are A and B. Will 'WHERE A = 100' cause a Full Table Scan?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each Cylinder holds the rows of exactly one table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Cylinder index identifies the sectors holding table rows",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Master Index contains a column with the tableID?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Cylinder index identifies the AMP holding table rows",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Fallback provides data protection at disk level",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There are two Cylinder Indexes per Cylinder",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is one Cylinder Index per Cylinder",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Master Index is always in memory",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Cylinder Index is always in memory",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is one Master Index per Cylinder Index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each AMP has its own Master Index",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is one shared Master Index for all the AMPs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Master Index of each AMP looks exactly the same",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"AMPs are sharing Cylinders",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"During a session, the account can't be changed",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each user requires a password, except DBC",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each user requires perm space",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each user requires spool space",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Ownership can't be transfered",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Privileges can be assigned to user, database or role",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload checkpoint increase load performance",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Maximizing the number of sessions increases Multiload performance",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload supports aggregate operators",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload supports NOPI tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload supports foreign keys",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload supports loading LOBs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload supports column partitioned tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload supports row partitioned tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP is not supporting aggregate operators",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP performance is severely affected by access logging",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"In ANSI session mode: The TRIM function trims only leading pad characters by default",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"In ANSI session mode: If a character string requires truncation an error is reported",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"In ANSI mode, transactions are always implicitly started and explicitly closed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A transaction is paused when it requires more space than available for the user",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A data block contains one or more data rows from different tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A data block contains one or more data rows from the same table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Datablocksize can only be set on table level",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The system does not automatically purge logs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"DBC.Acctg is hash distributed across all AMPs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"DBC.Indexes is hash distributed across all AMPs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata may do a full table scan against DBC.AccessRights",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Rollbacks can't be canceled",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A throttle limits the number of concurrent queries in a filter classification",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A query band is a set of name-value pairs assigned to a user",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A query band is a set of name-value pairs assigned to a session or transaction",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A queryband can be used to choose between dynamic or static plan execution",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A queryband can be used to set data temperatur",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata collects object use counts for Data Dictionary tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The first time you request a sample stats, Teradata collects full stats",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For sample stats, Teradata determines a sample percentage between 20% and 100%",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The gateway software is the interface between the network and Teradata Database",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Surrogate keys identify individual entities in a meaningful way",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Global temporary tables have a persistent stored definition",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You cannot denormalize a physical database using views",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The BYNET interface maintains a hash map for each AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A maximum of one primary index can be defined on a table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You cannot drop or change a primary index",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"All queries are based on primary index retrievals",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You cannot define secondary indexes for a global temporary trace table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Join indexes are rarely recommended for tables that are accessed frequently",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"No more than 64 columns can be defined for a row compressed join index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"No more than 128 columns can be defined for a row compressed join index",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You can include columns having XML, BLOB, CLOB data types in any join index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A join index can be stored either in hash-order or in value-order",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A join index can only be stored in hash-order",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Hash indexes can have a secondary index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Single-table join indexes can have a secondary index",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Instead of a hash index, you should use a single-table join index",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Instead of a single-table join index, you should use a hash index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You can define a partitioned hash index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Hashing and indexing are two different methods for facilitating data access",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is no obvious correspondence between a hashcode and row location",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Different data values can and often do produce identical hash codes",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Different data values never do produce identical hash codes",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A hash map defines the correspondence between a hash bucket and an AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload supports loading LOBs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"When a table is dropped, explicit privileges are not dropped",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is table skew decreasing performance for duplicate row checks (SET tables)?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is partition level locking available on Teradata 14.10?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is partition level locking available on Teradata 15.10?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Does the Nested Join always require an unique index on the left table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you use relative weights in the timeshare tier?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Does the Nested Join always require an unique index on the left table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Do NOPI tables have a ROWID?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can columnar tables have a primary index defined?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is it possible to create a NUSI for a NOPI table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is it possible to use 1MB data blocks together with small cylinders?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you recover the password of a user in Teradata?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is it recommended to use 1MB data blocks together with small cylinders?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which of the following is not stored in a sub table?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Row Partitioned Table",
+        "USI",
+        "Join Index",
+        "NUSI"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Identify the non-technical join type",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Left Join",
+        "Product Join",
+        "Hash Join",
+        "Merge Join"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which is not a tactical workload tool?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Rowkey Based Merge Join",
+        "USI",
+        "Join Index",
+        "Primary Index"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "question":"Which tool is used for realtime monitoring?",
+      "negative_points":"5",
+      "duration_in_seconds":"60",
+      "question_type":"1",
+      "options":[
+        "Viewpoint",
+        "The Explain Modifier",
+        "DBC.DBQLOGTBL",
+        "Visual Explain"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "question":"Which of the following load method is not considered bulk loading?",
+      "negative_points":"1",
+      "duration_in_seconds":"60",
+      "question_type":"1",
+      "options":[
+        "TPUMP",
+        "Fastload",
+        "Multiload",
+        "TPT Bulk Load"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"For which columns is Teradata applying heuristic estimations?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Non-Indexed Columns",
+        "Indexed Columns",
+        "The Primary Index",
+        "All Columns"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"In which scenario it is recommended to use full statistics?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Small Tables",
+        "Unique Indexed Columns",
+        "Evenly distributed data",
+        "Always"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"In which scenario it is recommended to use random AMP sampled statistics?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Unique or highly unique indexed columns",
+        "Non-Indexed Columns",
+        "Skewed data",
+        "Always"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is a Teradata Node",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Nodes are Hardware and Software Components",
+        "A Node is a VPROC",
+        "A Node is just hardware",
+        "Node is the Teradata Operating System"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which failures are handled by FALLBACK?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Disk Failures",
+        "AMP Failures",
+        "Parsing Engine Failures",
+        "Node Failures"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"AMPs and PEs are running under control off?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "PDE",
+        "Linux",
+        "Nodes",
+        "The BYNET"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Each AMP can perform how many task in parallel?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "80",
+        "10",
+        "1",
+        "120"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Each AMP can perform how many task in parallel?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "80",
+        "10",
+        "1",
+        "120"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Wich is not a statistics collection method on Teradata?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Cylinder Index Statistics",
+        "Random AMP Sampling",
+        "Full Statistics Collection",
+        "Sample Statistics"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which Teradata feature is not thought to support Active Data Warehousing?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Full table scans",
+        "Triggers",
+        "High availability",
+        "Summary tables"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"May locking for access be a row-level lock?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Full table scans",
+        "Triggers",
+        "High availability",
+        "Summary tables"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What do pseudo table locks prevent?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Table level deadlocks",
+        "Database deadlocks",
+        "Rowhash deadlocks",
+        "Utility deadlocks"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What does the Optimizer choose for dynamic data sampling?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "An AMP based on the TableId",
+        "SHOW STATISTICS",
+        "The Data Dictionary",
+        "The Primary Index"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Where are dynamic AMP samples stored?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Data Dictionary",
+        "DBC.TVFields",
+        "File System",
+        "DBC.DQBLOGTBL"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which statement about the RESPOND parcel is true?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Identifies response buffer size",
+        "Generates a SUCCESS/FAIL parcel",
+        "Always followed by zero or one DATA parcel",
+        "Cannot be sent as a continuation request"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is the function of the Request-To-Steps Cache?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Stores the SQL text and plastic steps generated by the Parser",
+        "Resolves view and macro references down to table references",
+        "Stores the most recently used DD information including SQL names",
+        "Analyzes the various ways an SQL Request can be executed"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which statement is true, if you want to avoid rollbacks?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Don't INSERT rows into a already populated table",
+        "UPDATE the table",
+        "Turn off FALLBACK table protection",
+        "Use BTEQ imports instead of Fastloads"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a relational join types?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "MERGE JOIN",
+        "INNER JOIN",
+        "OUTER JOIN",
+        "SELF JOIN"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"A Global Index is best compared to?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Hashed NUSI",
+        "USI",
+        "NUSI",
+        "Value Ordered NUSI"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is the stored integer for 1900-01-01?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "101",
+        "19000",
+        "19000101",
+        "0"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a denormalization technique?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Secondary Indexes",
+        "Repeating Groups",
+        "Pre-Joins",
+        "Summary Tables"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Row Parttitioning adds how many bytes to each table row?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "2 or 8",
+        "1",
+        "4",
+        "0"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which is a restriction of a NOPI table?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Only MULTISET tables allowed",
+        "No DATE columns allowed",
+        "Cannot be compressed",
+        "Can't be indexed"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is no criteria for chosing a Primary Index?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Character set",
+        "Volatility",
+        "Skew",
+        "Data Access"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which is not a Teradata Join Type?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Binary Tree Join",
+        "Merge Join",
+        "Hash Join",
+        "Product Join"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which is not a Merge Join Preparation Step?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Sorting of both tables by join column values",
+        "Duplication of the smaller spool",
+        "Redistribution of one or two tables by RowHash",
+        "Sorting of both spools by RowId"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which phases does not exist in Multiload?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "DDL Phase",
+        "Preliminary Phase",
+        "DML Phase",
+        "Application Phase"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many bytes the does BIGINT occupy?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "8",
+        "1",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many bytes the does INTEGER occupy?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "4",
+        "1",
+        "2",
+        "8"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which utility would you use to load 10 rows?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "BTEQ",
+        "Fastload",
+        "Multiload",
+        "None of them"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which loading mechanism needs a utility slot?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Fastload",
+        "TPUMP",
+        "BTEQ",
+        "None of them"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a compression type for column partitioning?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "AES256",
+        "Run-Length Encoding",
+        "Dictionary Encoding",
+        "Delta Compression"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not part of the LDM?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Demographics",
+        "Attributes",
+        "Relationships (PK/FK)",
+        "Entities"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many bytes the does BYTEINT occupy?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "1",
+        "2",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many bytes the does SMALLINT occupy?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "2",
+        "1",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"For Primary Index access but no partition elimination: What kind of row access is it?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "1-AMP plus partition walkthrough",
+        "1-AMP plus partition elimination",
+        "All-AMP plus scan of all non-eliminated partitions",
+        "All-AMP FTS"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"In Teradata, by default which type of table will be created?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "SET",
+        "MULTISET",
+        "PPI Table",
+        "NPPI Table"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"In Teradata, by default which type of table will be created?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "SET",
+        "MULTISET",
+        "PPI Table",
+        "NPPI Table"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many error tables are used by Multiload?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "2",
+        "1",
+        "None",
+        "3"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"How many error tables are used by TPUMP?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "1",
+        "0",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"May locking for access be a row-level lock?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP requires work tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload requires work tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Fastload uses the transient journal",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload uses the transient journal",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP uses the transient journal",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is no limit to the number of concurrent TPump jobs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is no limit of concurrent FastLoad and MultiLoad jobs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The usage of a secondary index is related to the data block size",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A NUSI is always used if less than 10% of the rows are retrieved",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Selectivity determines the usage of a NUSI",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each NUSI row points to exactly one base table row",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Join Index increases load performance of a table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Usage of several join indexes on a table can cause dead locks",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"To detect stale statistics, checking  the last collection timestamp is sufficient",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The optimizer uses the histograms biased values to optimize joins",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"High Confidence means that statistics are not stale",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"No Confidence means that statistics on indexed columns are missing",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"No Confidence means that statistics on non-indexed columns are missing",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"UNION ALL and UNION always deliver the same result",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"UNION ALL requires a sort step",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"UNION requires a sort step",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"UNION requires a sort step",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Data blocks are the smallest unit transferred between disk and memory",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Cylinders are the smallest unit transferred between disk and memory",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Using MULTISET instead of SET tables will increase Disk IOs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Use VARCHAR columns instead of CLOB if you seldom select the column",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Use CLOB columns instead of VARCHAR if you seldom select the column",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"CLOB columns are stored in the base table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"While you may be the creator of an object, you are not necessarily the immediate owner",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The creator of an object is the immediate owner",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You are the immediate owner of an object if the new object is directly below you in the hierarchy",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"If authorized, you may create databases from someone else's space",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You can transfer databases from one immediate owner to another",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each database object has only one creator",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Initially, system user SYSDBA owns all space in the Teradata Database",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Every object can have several immediate owners",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Every object can have several creators",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A logical data model provides the basis for a physical database design",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Physical database design is a one-time task",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Phyiscal design requires no knowledge of the applications",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A good ER diagram provides all the information necessary for a good physical design",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The performance depends on the choices made in the CREATE TABLE statement",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Constraints documented in the LDM should be implemented in the PDM",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Databases must be defined with at least some amount of Permanent space",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Existing Databases may be given a password by the System Administrator",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"When a Database is dropped, its Permanent space limit is given to its immediate owner",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The output of the Teradata hashing algorithm may vary in length",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Hash Map is used to associate the row hash with a specific AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Hash Maps are regenerated to reflect changes to a Teradata configuration",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The row hash of a PI value is all that is needed to find the row in Teradata",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata tables may consist of one or more subtables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata is linearly expandable",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Rows may vary in size",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Inserted rows are appended to the end of tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Inserted rows may cause data blocks to expand",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Data blocks split when they reach the maximum data block size",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A data block is always split into two data blocks of equal size",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Cylinder indices and data blocks are often cached",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row distribution is the most important factor in choosing a PI column",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row retrievals using a NUPI may require spool",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Skewed distribution of rows may cause out of spool",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Secondary Indexes always require additional Perm space",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"USIs take longer to create than NUSIs, but USI access is generally faster",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A NUSI subtable row may contain more than two Row IDs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata SQL allows you to directly reference secondary indexes",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Weakly selective NUSIs can be intersected and used in combination",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NUSIs, like Full Table Scans, are more appropriate for strategic queries",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"UPIs, NUPIs and USIs are all sufficiently efficient to support tactical queries",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Optimizer may require “hints” to ensure that it will make the best choices",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"If the base table is FALLBACK protected, the index subtables will also be fallback",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A secondary index can be defined over as many as 64 columns",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Presence bits are allocated and stored on byte boundaries",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Compressed character strings are case-sensitive",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Table headers are written to all AMPs when tables are created",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row Keys consist of the Row ID plus a Partition Number",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row Keys consist of the Row ID plus a column value",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row Keys are used in NPPI tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row Keys are used in PPI tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partition numbers are stored with the data rows for PPI and NPPI tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"PPI table access can be more efficient than NPPI table access if partitions can be eliminated",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"PPI table are always more efficient than NPPI table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"PPI access can be worse than NPPI access if each partition must be probed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"PPIs are best used on relatively small tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partitions may not be dropped from a PPI table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partitions may be added anywhere in a PPI table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partitions cannot be added to a PPI table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Constraints always need to be named",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Collected Statistics are stored in the Data Dictionary",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Statistics may be collected on single columns or on multiple columns",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Statistics are automatically refreshed when table data is updated",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Rows are always spooled before they are joined",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Normalization increases data redundancy",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Normalized databases are usually easier to maintain",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A SET table may be converted to MULTISET with an ALTER TABLE command",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"MULTISET tables may be FastLoaded, but duplicate rows will be eliminated",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata automatically compresses nulls, but not specific data values",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Constraints help keep the data accurate, but may require system resources to enforce",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Constraints help keep the data accurate, but may require system resources to enforce",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Does the Global Deadlock Detector release ARC locks?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"BTEQ: Does '.SET RETRY ON' resubmit a transaction for a 2631 error code?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload requires a utility slot",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The degree of uniqueness of a PI influences space utilization",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Choosing a Non-Unique PI with some very non-unique values can cause hidden skew",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"the perm space of a database is divided by the number of AMPs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"By adding columns to the PI, data distribution might become less skewed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"By adding columns to the PI, usability will decrease",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP requires a utility slot",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is the transaction time-out limit set in the DBSControl record?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can an Aggregate Join Index be used on a single table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can an Aggregate Join Index be partitioned?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can an Aggregate Join Index be compressed?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can an Aggregate Join Index specify OUTER joins?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For PPI tables: Does the Primary Index determine the responsible AMP of each row?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"PPI tables sort the rows by RowId before adding them to partitions",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Do PPI tables occupy additional space for the partition sub-table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Do PPI tables occupy additional space?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The main IO reduction for PPI tables comes from partition elimination",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The main IO reduction for PPI tables comes from primary index access",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You cannot add an NUSI to a PPI tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NUSI rows are distributed by Rowhash to all AMPS",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"USI rows are distributed by Rowhash to all AMPS",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"USI and NUSI are implemented in the same way",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"USI access should be considered for tactical workload",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Primary Index access should be used for tactical workload",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Full table scans should be used for tactical workload",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"PPI tables can always be defined with a unique primary index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partition elimination requires that all partition columns are used in the WHERE",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can secure zones be dropped?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Will this SQL work? SELECT x FROM (SELECT DATE AS x) t01",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is the row hash of the value 4 for  INTEGER and DECIMAL(5,0) the same?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can columnar tables have a primary index defined?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Rows with the same Primary Index value may be distributed across different partitions",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Sliding Window Merge Join is a technique used for NPPI tables?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Sliding Window Merge Join is a technique used for PPI tables?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Merge Join requires rows to be joined on the same AMP?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Merge Join requires rows to be joined being sorted by RowId?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Merge Join of tables with identical PI on join columns. Join preparation needed?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Hash Join needs the smaller table to be sorted by RowHash over the join columns",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Hash Join needs the larger table to be sorted by RowHash over the join columns",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A product join should always be avoided for performance reasons",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can NOPI tables be SET tables?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can NOPI contain identity columns?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can NOPI be MULTISET tables?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you execute a DELETE statement on a NOPI table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you execute an UPDATE statement on a NOPI table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you execute a MERGE INTO statement on a NOPI table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can a NUSI be used in a join step?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you execute an UPSERT statement on a NOPI table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you use permanent journals with a NOPI table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you add an USI to a NOPI table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you add fallback protection to a NOPI table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you add a join index to a NOPI table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you add a trigger to a NOPI table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you collect statistics on a NOPI table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can you add a Hash Index to a NOPI table?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can NOPI tables be skewed?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression is reducing used disk space",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression is a performance optimization feature",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression is keeping data compressed in spool",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression is used for frequently used tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression is used for not frequently used tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression is used for tables which are frequently changed",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Adding Block level compression to a table with MVC further can decrease space usage",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression decreases the size of USI and NUSI subtables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression of a table decreases the size of its join indexes",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression cuts CPU usage",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression increases CPU usage",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Block level compression ideally is used on CPU bound systems",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A full table scan touches each row several times",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A full table scan usually requires a spool table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The UPI access is the second cheapest",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The UPI access needs no spool table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The full table scan reads each data block",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The UPI access reads each data block exactly once",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The NUPI may have bad INSERT performance for SET tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The NUPI may have bad INSERT performance for MULTISET tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The NUPI access always reuquires a spool table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The USI access typically involves one AMP",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The USI access typically involves 2 AMPs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The USI access typically creates a spool table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The USI access typically involves one AMP",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Tactical workload is characterized by full table scans",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Tactical workload is characterized by single row access",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Tactical workload performance increases with the number of Nodes",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Tactical workload performance is not increasing with the number of Nodes",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Decision support workload performance increases with the number of Nodes",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The most suitable join type for the tactical workload is the Nested Join",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The most suitable join type for the tactical workload is the Merge Join",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The most suitable join type for the tactical workload is the Product Join",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata uses B+ Trees for indexing",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NUSI rows are hash distributed",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"USI rows are hash distributed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata always uses hashing for indexing",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NUSI access is an ALL-AMP access",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"USI access is an ALL-AMP access",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NUSI rows can be value ordered by a DATE column",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NUSI rows can be value ordered by a CLOB column",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Inside the data blocks the rows are sorted",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"If statistics are available, secondary indexes ar always used",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Rowhashes of Primary Index (A,B) and Primary Index(B,A) are different",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Rowhashes of Primary Index (A,B) and Primary Index(A) are different",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The perfect primary index doesn't exist",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can Teradata use multicolumn statistics if only some of the WHERE condition’s columns are used?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can Teradata use multicolumn statistics if only some of the WHERE condition’s columns are used?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can a database be dropped if it contains tables?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP uses table level locks?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP uses rowhash locks?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload uses rowhash locks?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload uses table level locks?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Multiload requires that the target table is empty?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Fastload requires that the target table is empty?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"TPUMP requires that the target table is empty?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"All Teradata Tables require a Primary Index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"All Teradata Tables require a Primary Index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NOPI tables add rows to the end of the table’s data blocks",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NOPI tables add rows to the begin of the table’s data blocks",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Loading NOPI tables requires sorting by rowhash into data blocks",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Bulk loaded tiny NOPI tables will always be skewed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Column partitioned tables are always NOPI tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Column partitioned tables always require a PI",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NOPI tables are often used for production tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NOPI should not be used for production tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NOPI tables can have CHECK constraints",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The rows of a table are assigned to exactly one AMP",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"All tables spreads its rows across all AMPs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"AMPs and PEs run inside the Nodes memory",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"SMP stands for single memory parsine engine",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"SMP stands for symmetric multi-processing",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Only the AMP assigned to the VIDSK can read or write to that disk",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each AMP can access the VIDSK of each other AMP",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each node holds exactly one AMP",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each node holds many AMPs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Two connected SMP nodes are a MPP system",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each SMP node is a MPP system",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A single node has no phyiscal BYNET",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A single node has no BYNET",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A MPP system has exactly one phyiscal BYNET",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A MPP system has exactly two phyiscal BYNETs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each Parsing Engine can manage up to 120 sessions",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The PE checks the SQL syntax",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The AMP checks the SQL syntax",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The PE uses the COLLECTED STATISTICS to build the best plan",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The AMP uses the COLLECTED STATISTICS to build the best plan",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The PE converts EDCDIC to ASCII on the way in",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The AMP converts EDCDIC to ASCII on the way in",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The PE always delivers the final answer set to the user",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The BYNET always delivers the final answer set to the user",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"AMPs lock the tables and rows",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"AMPs sort rows",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The BYNET handles all the join processing",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"AMPs handle all space management",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each Teradata table can have several Primary Indexes",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Row-ID is unique within a table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Rowhash is unique within a table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The difference between PPI and NPPI tables is how AMPs sort their rows",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The combination of Partition Number and Rowhash is called the Row-Key",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The combination of Partition Number and Row-Id is called the Row-Key",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partitioning is designed to eliminate the Full Table Scan",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partitioning is designed to speed up the Full Table Scan",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The most expensive task for an AMP is to move blocks from disk to memory",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Data blocks are stored in Cylinders",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Cylinders are stored in Data Blocks",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The AMP’s Master Index is most of the time in memory",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is one Row Reference Array inside each cylinder",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is one Row Reference Array inside each data block",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is One Master Index and 1 Cylinder Index",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is one Master Index per AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There is one Master Index per Node",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"All communication to and from AMPs are done via messages over the BYNET",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Every PE communicates always via broadcast to all AMPs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"AMPs can't communicate with other AMPs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"AMP worker tasks are the dedicated tasks inside each AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each AMP has 1 AMP Worker Task",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A join step with row redistribution or duplication need 2 AWTs per AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A join step with row redistribution or duplication need 3 AWTs per AMP",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Parallel steps can decrease AWT usage/query",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Parallel steps can decrease AWT usage/query",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is the first bit in the first Presence Byte always set to a 0?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Is there one Presence Bit reserved for each Nullable column in a table?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Identity columns can be compressed",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Every Data Block Starts with a Data Block Trailer",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Tiny tables always require fully collected statistics",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For a unique index (UPI, USI) it is sufficient to collect sample statistics",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For non-equality constraints, always collect full stats on the constraint column(s)",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"You should never collect statistics on partitioning columns",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Teradata Optimizer is rule based",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Teradata Optimizer is cost based",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Statistics never change the execution plan",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Statistics never change the execution plan",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Primary Key must not be NULL?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Primary Index must not be NULL?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Foreign Keys may be NULL",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Foreign Keys must not be NULL",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each Primary Key identifies several identical rows in a table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A dervived attribute can be caclulated from other attributes",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A foreign key uniquely identifes each row in a table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Derived attributes create redundant data",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Denormalization may increase or decrease system costs",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Normalizing to 2NF means more joins",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Denormalization usually makes new applications easier to implement",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Denormalization increases programming cost and complexity",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Denormalization introduces the potential for data problems",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Index choice is independent from data demographics",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The PDM is never matching the LDM",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Different PI values often produce the same Row Hash",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Same PI values never produce the same Row Hash",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Upper and lower case values hash to the same hash value",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row Hash uniqueness depends directly on PI uniqueness",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row Hash uniqueness is independent from PI uniqueness",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Good data distribution depends directly on Row Hash uniqueness",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Good data distribution is not dependend from Row Hash uniqueness",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Rows with the same Row Hash will be spread evenly across all AMPs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"HASHROW() function returns the bucket number that corresponds to a hashrow",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"HASHBUCKET() function returns the bucket number that corresponds to a hashrow",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A DATE data type and an INTEGER data type hash to the same value",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A CHAR data type and an INTEGER data type hash to the same value",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The following data types hash the same: BYTEINT, SMALLINT, INTEGER, CHAR",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The following data types hash the same: BYTEINT, SMALLINT, INTEGER",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A numeric value of 0 hashes the same as a NULL",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A numeric value of '0' hashes the same as a NULL",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"An INTEGER value of 500 and a DECIMAL (8,2) value of 5.00 have the same hash value",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"HashAMP returns the fallback AMP that is associated with the hash bucket",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"HashBakAMP returns the fallback AMP that is associated with the hash bucket",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The HashAMP function can be used to determine data skewing",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Hash Maps are part of the Message Passing Layer interface",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Hash Maps are the mechanisms that determine which AMP gets a row",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Hash Maps are the mechanisms that determine which PE gets a row",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Hash Maps are used whenever there is a PI or USI operation",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Hash Maps are used whenever there is NUSI operation",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Each hashmap entry points to a set of AMPs",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"There are four Hash Maps on every TPA node",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The AMP uses the Table ID and Row Hash to identify and locate the proper data block",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Only the AMP whose number appears in the referenced Hash Map is interrupted",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Row Hash is sufficient to identify a specific row in a table.",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The RowHash makes every row within a table uniquely identifiable",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Row ID makes every row within a table uniquely identifiable",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For Primary Index retrievals, only the Row Hash and Primary Index values are needed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For Secondary Index retrievals, only the Row Hash and Primary Index values are needed",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The first row for a Row Hash has a Uniqueness Value of 0",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row IDs determine sort sequence within a Data Block",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Row ID uniqueness implies data uniqueness",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Cylinder Index identifies the correct AMP",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata does not supports variable length rows",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Data blocks are chained together",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Every table must have a Primary Key defined",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Primary Key and Primary Index are different terms for the same concept",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Specifying a UNIQUE constraint caues the creation of a secondary index",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"With Multiset tables, the Teradata database allows duplicate rows",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"With Set tables, the Teradata database allows duplicate rows",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Many NUPI duplicates result in expensive duplicate row checks",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"All Non-Unique Columns are PI candidates",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Primary Key is a UPI candidate",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The term Row Key will never appear in EXPLAIN reports",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Row ID is only unique within a partition of a PPI table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A PPI table cannot have secondary indexes.",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Partitioning columns do not have to be columns in the primary index",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Deletes of entire partitions are usually slow",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Joins from PPI to NPPI tables with the same PI may be degraded",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The PI can’t be unique if the partitioning column is not part of the PI",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The same Row Hash can never exist in multiple partitions.",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Prefer NUPI indexes that have excessive number of duplicate values",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Nested Joins are the most efficient types of Join",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Merge Joins are commonly done when the Join condition is based on non-equality",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Join processing sometimes moves or changes the original table rows",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For Teradata to process a Join, the rows to be joined must be on the same AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Teradata DBA has to reorganize data or index space",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Teradata DBA has to pre-allocate table/index space",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Teradata DBA has to ensure that queries run in parallel",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The Parsing Engine stores rows on its associated disk",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Typically each table has some rows distributed to each AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A stored procedure uses temporary disk space",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The data dictionary is entirely maintained by the DBA",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Macros are source code stored on the DBC",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Primary index columns cannot be compressed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Primary index columns can be compressed",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The default for all columns is NOT NULL",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"NOT NULL permits storage of zero and blank values",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Identity columns guarantee row uniqueness in a table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Identity columns can guarantee row uniqueness in a table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Identity columns reduce manual coding tasks",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Identity columns guarantee even row distribution for a table",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Primary key may be defined on NULLABLE columns",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"UNIQUE May only be defined on NOT NULL columns",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The transient journal is maintained by the DBA",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The transient journal is used for INSERT...SELECT into an empty table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The transient journal is not used for DELETE FROM <tablename>;",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The transient journal is not used for FASTLOAD",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The transient journal is used for MULTILOAD",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Data conversion is cheap",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Columns must be of the same data type to be compared",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Adding columns to the Primary Index increases usability",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Adding columns to the Primary Index may improve distribution",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Adding columns to the Primary Index always improves distribution",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Aggregate indexes require any user maintenance",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Aggregate indexes can be accessed directly by the user",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Aggregate indexes do not permit use of EXTRACT YEAR",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Sparse Indexes increase the index size",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Only Aggregate Indexes can be Sparse Indexes",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Sparse Indexes are slower to create",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Hash Index can only be hash ordered",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Secondary indexes can be ordered by value or hash",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Primary indexes can be ordered by value or hash",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Hash index automatically includes the Primary Index value",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The primary index of a join index can only be ordered by hash",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"The transient journal is used for MULTILOAD",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Macros contain exactly one SQL statement",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Macros contain exactly one SQL statement",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A stored procedure uses temporary disk space",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Typically each table has some rows distributed to each AMP",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"For Teradata to process a Join, the rows to be joined must be on the same BYNET",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"A Row ID is unique within all partition of a PPI table",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"All Unique Columns are PI candidates",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Pre-Joins occupy additional space",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Normalizing to 3NF means more joins",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Indexes on Teradata are used to improve performance",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Indexes on Teradata are used to ensure index value uniqueness",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Tables can be created as...?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "USI Tables",
+        "UPI Tables",
+        "NUPI Tables",
+        "NOPI Tables"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not part of the Teradata logon string?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Logon Partition",
+        "TDPID",
+        "Username",
+        "Password"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a Teradata Admin tool?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "startdb",
+        "aborthost",
+        "awtmon",
+        "checktable"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a characteristic of a Secondary Index?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Increases performance of a full table scan",
+        "Row distribution across AMPs is not affected",
+        "Can be unique or non-unique",
+        "Useful for NOPI table"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which one is not a Teradata user type?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "UDF user",
+        "Permanent database user",
+        "Proxy User",
+        "Trusted User"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which privilege code is wrong?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "CU - Create Unique Index",
+        "AF - Alter Function",
+        "AS - Abort Session",
+        "CD - Create Database"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which one is not a valid spoolspace type?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Global Spool",
+        "Volatile Spool",
+        "Intermediate Spool",
+        "Output Spool"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What module is used by Teradata to control database operations?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Database Window",
+        "Teradata Gateway",
+        "PDE",
+        "DB Management Software"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What type of journal rolls back failed transactions?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Transient",
+        "Permanent",
+        "Down AMP Recovery",
+        "None of the above"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is the typically size of a rowhash value?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "32 Bit",
+        "64 Bit",
+        "20 Bit",
+        "16 Bit"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which data type can be defined in sematic constraints?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Integer",
+        "BLOB",
+        "UDT",
+        "Geospatial"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which method doesn't use a literal NULL?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "A MERGE operation",
+        "An explicit SELECT item",
+        "A CASE result",
+        "A default column specification"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which statement is part of the DCL?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "GIVE",
+        "CREATE",
+        "SELECT",
+        "ABORT"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which one is not a semantic constraint?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Physical",
+        "Column",
+        "Database",
+        "Table"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is a defining characteristic of a NOPI table?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Primary Index not used for hashing",
+        "Updated with SQL UPDATE",
+        "A permanent journal without Primary Index",
+        "Temporal Tables with MULTISET type"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which statement will provide a write lock on rowhash?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "INSERT",
+        "CREATE DATABASE",
+        "SELECT",
+        "ALTER TABLE"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is used to control access to used resources?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Locks",
+        "Journals",
+        "Roles",
+        "Groups"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is not a valid index type?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Single level NPPI Table",
+        "Aggregate Join Index",
+        "NUSI",
+        "USI"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What does not describe the relevance of data?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Critical",
+        "Warm",
+        "Hot",
+        "Cold"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"Which criteria is valid for selecting a Primary Key?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Use numeric attributes whenever possible",
+        "Always use intelligent keys",
+        "Select columns that are likely to change",
+        "Attributes don't have to be unqiue"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What type of data mart is virtually created from a phyiscal database?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Logical Data Mart",
+        "Data Basement",
+        "Depending Data Mart",
+        "Independent Data Mart"
+      ]
+    },
+    {
+      "points":"1",
+      "Answer":"0",
+      "duration_in_seconds":"60",
+      "question":"What is the most restrictive lock?",
+      "negative_points":"1",
+      "question_type":"1",
+      "options":[
+        "Exclusive",
+        "Read",
+        "Write",
+        "Access"
+      ]
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Secondary Index row values are associated with exactly 1 row",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Temporary space holds rows of volatile tables",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Temporary space holds rows of materialized global temporary tables",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Teradata will not apply ALC to any value covered by MVC",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"ALC and MVC can be used concurrently on the same column",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"SI subtables are not compressed with BLC",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Permanent space is dynamically drawn from unused Spool",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Subtables for secondary indexes are maintained by the DBA",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Dictionary tables are never fallback protected",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Most dictionary tables are fallback protected",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can the privilege DROP ROLE be granted to a role?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Databases and Users are transfered using the MOVE statement",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Permanent space limits can be set on database & user level",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Permanent space limits can be set on table level",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Space is allocated from the parent of an object being created",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Space is allocated from DBC for each object being created",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Some dictionary tables are not hash distributed",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can the privilege CREATE USER be granted to a role?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Can the GRANT option be granted to a role?",
+      "negative_points":"1",
+      "Answer":"0"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"cnsrun is a Teradata Admin tool?",
+      "negative_points":"1",
+      "Answer":"1"
+    },
+    {
+      "question_type":"4",
+      "points":"1",
+      "duration_in_seconds":"60",
+      "question":"Does the value 100 represent a valid date?",
+      "negative_points":"1",
+      "Answer":"0"
+    }
+  ]
+}

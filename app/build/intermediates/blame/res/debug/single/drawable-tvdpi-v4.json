@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/home/rwenzlofsky/.android/build-cache/40a02d34e48fd8dbc2bdbe78328ddfebb453672d/output/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/home/rwenzlofsky/.android/build-cache/40a02d34e48fd8dbc2bdbe78328ddfebb453672d/output/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/home/rwenzlofsky/.android/build-cache/40a02d34e48fd8dbc2bdbe78328ddfebb453672d/output/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/home/rwenzlofsky/.android/build-cache/40a02d34e48fd8dbc2bdbe78328ddfebb453672d/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+    }
+]

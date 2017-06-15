@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/rwenzlofsky/AndroidStudioProjects/Quiz App Starter Kit Android v4.1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/rwenzlofsky/.android/build-cache/fd8bb256b7f91beda6cf72a5a3521ce38b8600e3/output/res/color-v23/abc_tint_switch_thumb.xml"
+    }
+]

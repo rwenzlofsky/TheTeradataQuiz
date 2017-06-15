@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/highscore_background_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AccentColor"
+    >
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/common_margin"
+            >
+
+            <TextView
+                android:id="@+id/score_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="You score scored 10000 points"
+                android:textSize="@dimen/points_result_text_size"
+                android:textColor="@color/app_text_color" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/common_margin"
+            >
+            <com.facebook.share.widget.ShareButton
+                android:id="@+id/share_btn_fb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/facebook_image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fb"
+                android:layout_marginRight="@dimen/right_margin"
+                android:focusableInTouchMode="true"
+                />
+            <ImageView
+                android:id="@+id/twitter_image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tw"
+                android:focusableInTouchMode="true"
+                />
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_size"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:weightSum="1.0"
+            >
+            <ImageView
+                android:id="@+id/home_imageview"
+                android:layout_width="@dimen/title_bar_button_size"
+                android:layout_height="@dimen/title_bar_button_size"
+                android:src="@drawable/home"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:layout_weight=".01"
+                />
+
+            <TextView
+                android:id="@+id/title_textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/title_text_size"
+                android:layout_weight=".98"
+                android:gravity="center"
+                />
+            <ImageView
+                android:id="@+id/info_button"
+                android:layout_width="@dimen/title_bar_button_size"
+                android:layout_height="@dimen/title_bar_button_size"
+                android:src="@drawable/infobtn"
+                android:visibility="invisible"
+                android:layout_weight=".01"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/high_scores_display_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High Scores"
+            android:gravity="center"
+            android:textColor="@color/app_text_color"
+            android:textSize="@dimen/highscore_title_text_size"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/highscore_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleLayout"
+        android:layout_above="@id/bottom_layout"
+        android:divider="@null"
+        android:layout_marginStart="@dimen/left_margin"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:layout_marginTop="@dimen/top_margin_extra"
+        >
+
+    </ListView>
+
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/fblogin_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+
+
+
+
+</RelativeLayout>

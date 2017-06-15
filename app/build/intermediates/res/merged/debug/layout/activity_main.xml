@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_bg">
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size">
+
+        <LinearLayout
+            android:id="@+id/setting_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/left_margin"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/title_bar_button_size"
+                android:layout_height="@dimen/title_bar_button_size"
+                android:contentDescription="@string/simple_description"
+                android:src="@drawable/settings_btn" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Quiz App"
+            android:textColor="@color/app_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+        <LinearLayout
+            android:id="@+id/info_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/right_margin"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_width="@dimen/title_bar_button_size"
+                android:layout_height="@dimen/title_bar_button_size"
+                android:layout_gravity="center"
+                android:src="@drawable/infobtn" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_layout"
+        android:layout_marginTop="43dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/first_button"
+            android:layout_width="@dimen/play_button_width"
+            android:layout_height="@dimen/play_button_height"
+            android:background="@drawable/button_state"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/play_button_icon_size"
+                android:layout_height="@dimen/play_button_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:src="@drawable/button1_icon" />
+
+            <TextView
+                android:id="@+id/play_quiz_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/left_margin_extra"
+                android:text="@string/play_quiz"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/play_quiz_button_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_button"
+            android:layout_width="@dimen/play_button_width"
+            android:layout_height="@dimen/play_button_height"
+            android:layout_below="@+id/first_button"
+            android:background="@drawable/button_state_two"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/play_button_icon_size"
+                android:layout_height="@dimen/play_button_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:src="@drawable/button2_icon" />
+
+            <TextView
+                android:id="@+id/multiplayer_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/left_margin_extra"
+                android:text="Multiplayer 1 to 1"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/play_quiz_button_text_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/third_button"
+            android:layout_width="@dimen/play_button_width"
+            android:layout_height="@dimen/play_button_height"
+            android:layout_below="@+id/second_button"
+            android:background="@drawable/button_state_three"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/play_button_icon_size"
+                android:layout_height="@dimen/play_button_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:src="@drawable/button3_icon" />
+
+            <TextView
+                android:id="@+id/more_categories_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+
+                android:paddingLeft="@dimen/left_margin_extra"
+                android:text="More categories"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/play_quiz_button_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/four_button"
+            android:layout_width="@dimen/play_button_width"
+            android:layout_height="@dimen/play_button_height"
+            android:layout_below="@+id/third_button"
+            android:background="@drawable/button_state_four"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/play_button_icon_size"
+                android:layout_height="@dimen/play_button_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:src="@drawable/button4_icon" />
+
+            <TextView
+                android:id="@+id/world_score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/left_margin_extra"
+                android:text="World score"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/play_quiz_button_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/five_button"
+            android:layout_width="@dimen/play_button_width"
+            android:layout_height="@dimen/play_button_height"
+            android:layout_below="@+id/four_button"
+            android:background="@drawable/button_state_four"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/play_button_icon_size"
+                android:layout_height="@dimen/play_button_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:src="@drawable/button5_icon" />
+
+            <TextView
+                android:id="@+id/share_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/left_margin_extra"
+                android:text="Share the App"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/play_quiz_button_text_size" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

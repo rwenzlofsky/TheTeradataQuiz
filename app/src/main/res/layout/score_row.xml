@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_row_highscore"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/left_margin_extra"
+    android:paddingEnd="@dimen/left_margin_extra"
+    android:orientation="vertical"
+    android:background="@color/AccentColor"
+    >
+
+    <LinearLayout
+        android:id="@+id/score_layout_rows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Sport category"
+            android:textColor="@color/app_text_color"
+            android:textSize="@dimen/high_score_category_name_text_size"
+            android:minLines="1"
+            android:maxLines="2"
+            app:minTextSize="10sp"
+            android:padding="@dimen/common_margin_extra"
+            />
+
+        <TextView
+            android:id="@+id/category_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="0000"
+            android:textColor="@color/app_text_color"
+            android:textSize="@dimen/high_score_category_name_text_size"
+            />
+
+    </LinearLayout>
+</LinearLayout>
